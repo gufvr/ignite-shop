@@ -7,7 +7,8 @@ export const {
   globalCss,
   keyframes,
   getCssText,
-  theme,createTheme
+  theme,
+  createTheme,
 } = createStitches({
   theme: {
     colors: {
@@ -19,7 +20,14 @@ export const {
       gray100: '#E1E1E6',
 
       green500: '#00875F',
-      green300: '#00B37E'
-    }
-  }
+      green300: '#00B37E',
+    },
+
+    fontSizes: {
+      md: '1.125rem', // 18px
+      lg: '1.25rem', // 20px
+      xl: '1.5rem', // 24px
+      '2xl': '2rem', // 32px
+    },
+  },
 })
